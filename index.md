@@ -1,7 +1,5 @@
----
 layout: none
 title: Mascot Gallery
----
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -78,7 +76,7 @@ title: Mascot Gallery
     <a href="assets/mascot-images/CORY-Sad.png" title="CORY Sad"><img src="assets/mascot-images/CORY-Sad.png" alt="CORY Sad"></a>
     <a href="assets/mascot-images/TeamOne-From-The-Beach.png" title="TeamOne From The Beach"><img src="assets/mascot-images/TeamOne-From-The-Beach.png" alt="TeamOne From The Beach"></a>
   </div>
-  <div class="footer">&copy; 2025 TeamOne Mascot Gallery</div>
+  <div class="footer">Images licensed under the repository LICENSE file.</div>
   <!-- Bootstrap 5 JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <!-- SimpleLightbox JS -->
