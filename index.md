@@ -1,0 +1,90 @@
+---
+layout: none
+title: Mascot Gallery
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mascot Gallery</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- SimpleLightbox CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.2/dist/simple-lightbox.min.css" rel="stylesheet">
+  <style>
+    body { background: #f8f9fa; }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+    .gallery a {
+      display: block;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      transition: transform 0.2s;
+    }
+    .gallery a:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    }
+    .gallery img {
+      display: block;
+      width: 220px;
+      height: 220px;
+      object-fit: cover;
+      background: #fff;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 2rem;
+      font-weight: 700;
+      color: #222;
+    }
+    .footer {
+      text-align: center;
+      margin: 2rem 0 1rem 0;
+      color: #888;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mascot Gallery</h1>
+  <div class="gallery">
+    <a href="assets/mascot-images/Cora-Night-dress.png" title="Cora Night Dress"><img src="assets/mascot-images/Cora-Night-dress.png" alt="Cora Night Dress"></a>
+    <a href="assets/mascot-images/Cora-Orig.png" title="Cora Orig"><img src="assets/mascot-images/Cora-Orig.png" alt="Cora Orig"></a>
+    <a href="assets/mascot-images/Cory-ai.png" title="Cory AI"><img src="assets/mascot-images/Cory-ai.png" alt="Cory AI"></a>
+    <a href="assets/mascot-images/Cory-android-concerned.png" title="Cory Android Concerned"><img src="assets/mascot-images/Cory-android-concerned.png" alt="Cory Android Concerned"></a>
+    <a href="assets/mascot-images/Cory-android.png" title="Cory Android"><img src="assets/mascot-images/Cory-android.png" alt="Cory Android"></a>
+    <a href="assets/mascot-images/CORY-Coffee-1.png" title="CORY Coffee 1"><img src="assets/mascot-images/CORY-Coffee-1.png" alt="CORY Coffee 1"></a>
+    <a href="assets/mascot-images/CORY-Coffee-2.png" title="CORY Coffee 2"><img src="assets/mascot-images/CORY-Coffee-2.png" alt="CORY Coffee 2"></a>
+    <a href="assets/mascot-images/Cory-Colleague-2.png" title="Cory Colleague 2"><img src="assets/mascot-images/Cory-Colleague-2.png" alt="Cory Colleague 2"></a>
+    <a href="assets/mascot-images/Cory-Flying-dna.png" title="Cory Flying DNA"><img src="assets/mascot-images/Cory-Flying-dna.png" alt="Cory Flying DNA"></a>
+    <a href="assets/mascot-images/CORY-Good-Job.png" title="CORY Good Job"><img src="assets/mascot-images/CORY-Good-Job.png" alt="CORY Good Job"></a>
+    <a href="assets/mascot-images/CORY-Hello.png" title="CORY Hello"><img src="assets/mascot-images/CORY-Hello.png" alt="CORY Hello"></a>
+    <a href="assets/mascot-images/CORY-Idea.png" title="CORY Idea"><img src="assets/mascot-images/CORY-Idea.png" alt="CORY Idea"></a>
+    <a href="assets/mascot-images/CORY-In-a-Rush.png" title="CORY In a Rush"><img src="assets/mascot-images/CORY-In-a-Rush.png" alt="CORY In a Rush"></a>
+    <a href="assets/mascot-images/Cory-Jedi-temple.png" title="Cory Jedi Temple"><img src="assets/mascot-images/Cory-Jedi-temple.png" alt="Cory Jedi Temple"></a>
+    <a href="assets/mascot-images/CORY-Laptop-3.png" title="CORY Laptop 3"><img src="assets/mascot-images/CORY-Laptop-3.png" alt="CORY Laptop 3"></a>
+    <a href="assets/mascot-images/Cory-Loves-Penguin.png" title="Cory Loves Penguin"><img src="assets/mascot-images/Cory-Loves-Penguin.png" alt="Cory Loves Penguin"></a>
+    <a href="assets/mascot-images/Cory-Orig.png" title="Cory Orig"><img src="assets/mascot-images/Cory-Orig.png" alt="Cory Orig"></a>
+    <a href="assets/mascot-images/Cory-Parachute.png" title="Cory Parachute"><img src="assets/mascot-images/Cory-Parachute.png" alt="Cory Parachute"></a>
+    <a href="assets/mascot-images/CORY-PC-Cat.png" title="CORY PC Cat"><img src="assets/mascot-images/CORY-PC-Cat.png" alt="CORY PC Cat"></a>
+    <a href="assets/mascot-images/CORY-Sad.png" title="CORY Sad"><img src="assets/mascot-images/CORY-Sad.png" alt="CORY Sad"></a>
+    <a href="assets/mascot-images/TeamOne-From-The-Beach.png" title="TeamOne From The Beach"><img src="assets/mascot-images/TeamOne-From-The-Beach.png" alt="TeamOne From The Beach"></a>
+  </div>
+  <div class="footer">&copy; 2025 TeamOne Mascot Gallery</div>
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- SimpleLightbox JS -->
+  <script src="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.2/dist/simple-lightbox.jquery.min.js"></script>
+  <script>
+    new SimpleLightbox('.gallery a', {});
+  </script>
+</body>
+</html>
